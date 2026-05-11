@@ -1,0 +1,22 @@
+read_set SETA, 45, 23, ,6, 7, 4, 3, 75 ,45, 23,34, -1
+read_set SETA, 45, 23, 6, 7, 4, 3, 75 ,45, 23,34, 
+read_set SETA, 45, 23, 6, 7, 4, 3, 75 ,45, 23,34
+read_set ,SETA, 45, 23,  7, 4, 3, 75 ,45, 23,34, -1
+read_set SETA 45, 23, 6, 7, 4, 3, 75 ,45, 23,34, -1
+read_set SETA, 45, 23.45, 6, 7, 4, 3, 75 ,45, 23,34, -1
+read_set SETA, 45, 23, 6, 7abc, 4, 3, 75 ,45, 23,34, -1
+read_set SETA, 45, 23, 6, abc, 4, 3, 75 ,45, 23,34, -1
+read_set SETA, 45, 23, 6, -8, 4, 3, 75 ,45, 23,34, -1
+read_set SETA, 45, 23, 6, 128, 4, 3, 75 ,45, 23,34, -1
+read_SET SETA, 45, 23, 6, 127, 4, 3, 75 ,45, 23,34, -1
+read_set SETG, 45, 23, 6, 127, 4, 3, 75 ,45, 23,34, -1
+read_set seta, 45, 23, 6, 127, 4, 3, 75 ,45, 23,34, -1
+print_set SETB,SETA
+union_set SETA, SETB, SETC,SETD
+union_set SETA, SETB
+union_set SETA, SETB, SETC,
+union_set SETA, SETB,, SETC,
+union_set, SETA, SETB, SETC
+union_set SETA SETB  SETC
+union_set SET A, SETB, SETC
+
