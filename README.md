@@ -1,5 +1,4 @@
 # Set-Operations-Software
-**Grade: 100%
 
 This project implements an interactive "pocket calculator" system in C, enabling users to perform various mathematical operations on sets of integers. 
 
@@ -15,5 +14,10 @@ The system manages 6 predefined sets (SETA through SETF) capable of storing inte
 ## Installation
 To compile the project, ensure you have `gcc` and `make` installed. Use the provided `makefile` to compile the project cleanly (compiled with `-ansi -pedantic -Wall` flags):
 
+
+## Project Details
+* **Author:** Naomi
+* **Date of Development:**  January 2026
+* **Final Grade:** 100%
 ```bash
 make
