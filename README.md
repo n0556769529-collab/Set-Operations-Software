@@ -17,8 +17,8 @@ To compile the project, ensure you have `gcc` and `make` installed. Use the prov
 
 
 ## Author
-Naomi Aharoni
-*January 2026
-*Final Grade: 100%
+Naomi Aharoni  
+January 2026  
+Final Grade: 100%
 ```bash
 make
