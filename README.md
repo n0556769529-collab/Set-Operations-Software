@@ -12,7 +12,7 @@ The system manages 6 predefined sets (SETA through SETF) capable of storing inte
 * **Dynamic Input:** Reads multiple commands sequentially until termination.
 
 ## Installation
-To compile the project, ensure you have `gcc` and `make` installed. Use the provided `makefile` to compile the project cleanly (compiled with `-ansi -pedantic -Wall` flags):
+To compile the project, ensure you have gcc and make installed. Use the provided makefile to compile the project cleanly (compiled with -ansi -pedantic -Wall flags):
 
 
 
