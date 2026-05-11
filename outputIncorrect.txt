@@ -1,0 +1,90 @@
+
+Please enter a command
+read_set SETA, 45, 23, ,6, 7, 4, 3, 75 ,45, 23,34, -1
+Multiple consecutive commas
+
+Please enter a command
+read_set SETA, 45, 23, 6, 7, 4, 3, 75 ,45, 23,34, 
+List of set members is not terminated correctly
+
+Please enter a command
+read_set SETA, 45, 23, 6, 7, 4, 3, 75 ,45, 23,34
+List of set members is not terminated correctly
+
+Please enter a command
+read_set ,SETA, 45, 23,  7, 4, 3, 75 ,45, 23,34, -1
+Illegal comma
+
+Please enter a command
+read_set SETA 45, 23, 6, 7, 4, 3, 75 ,45, 23,34, -1
+Missing comma
+
+Please enter a command
+read_set SETA, 45, 23.45, 6, 7, 4, 3, 75 ,45, 23,34, -1
+Invalid set member - not an integer
+
+Please enter a command
+read_set SETA, 45, 23, 6, 7abc, 4, 3, 75 ,45, 23,34, -1
+Invalid set member - not an integer
+
+Please enter a command
+read_set SETA, 45, 23, 6, abc, 4, 3, 75 ,45, 23,34, -1
+Invalid set member - not an integer
+
+Please enter a command
+read_set SETA, 45, 23, 6, -8, 4, 3, 75 ,45, 23,34, -1
+Invalid set member - value out of range
+
+Please enter a command
+read_set SETA, 45, 23, 6, 128, 4, 3, 75 ,45, 23,34, -1
+Invalid set member - value out of range
+
+Please enter a command
+read_SET SETA, 45, 23, 6, 127, 4, 3, 75 ,45, 23,34, -1
+Undefined command name
+
+Please enter a command
+read_set SETG, 45, 23, 6, 127, 4, 3, 75 ,45, 23,34, -1
+Undefined set name
+
+Please enter a command
+read_set seta, 45, 23, 6, 127, 4, 3, 75 ,45, 23,34, -1
+Undefined set name
+
+Please enter a command
+print_set SETB,SETA
+Extraneous text after end of command
+
+Please enter a command
+union_set SETA, SETB, SETC,SETD
+Extraneous text after end of command
+
+Please enter a command
+union_set SETA, SETB
+Missing parameter
+
+Please enter a command
+union_set SETA, SETB, SETC,
+Extraneous text after end of command
+
+Please enter a command
+union_set SETA, SETB,, SETC,
+Multiple consecutive commas
+
+Please enter a command
+union_set, SETA, SETB, SETC
+Illegal comma
+
+Please enter a command
+union_set SETA SETB  SETC
+Missing comma
+
+Please enter a command
+union_set SET A, SETB, SETC
+Undefined set name
+
+Please enter a command
+
+
+Please enter a command
+The code should end with a stop command

@@ -1,0 +1,93 @@
+
+Please enter a command
+read_set SETA, 45, 23, 6, 7, 4, 3, 75 ,45, 23,34, -1
+
+Please enter a command
+print_set SETA
+3 4 6 7 23 34 45 64 65 66 68 75 96 
+
+Please enter a command
+read_set SETB, 5, 4, 3, 2, 78, 45, 43, 45,7, -1
+
+Please enter a command
+print_set SETB
+2 3 4 5 7 43 45 64 65 66 68 78 96 
+
+Please enter a command
+union_set SETA, SETB, SETC
+
+Please enter a command
+print_set SETC
+2 3 4 5 6 7 23 34 43 45 64 65 66 68 75 78 
+96 
+
+Please enter a command
+intersect_set SETA, SETB, SETD
+
+Please enter a command
+print_set SETD
+3 4 7 45 64 65 66 68 96 
+
+Please enter a command
+sub_set SETA, SETB, SETE
+
+Please enter a command
+print_set SETE
+6 23 34 75 
+
+Please enter a command
+symdiff_set SETA, SETB, SETF
+
+Please enter a command
+print_set SETF
+2 5 6 23 34 43 75 78 
+
+Please enter a command
+
+
+Please enter a command
+union_set SETA, SETA, SETC
+
+Please enter a command
+print_set SETC
+3 4 6 7 23 34 45 64 65 66 68 75 96 
+
+Please enter a command
+union_set SETA, SETC, SETC
+
+Please enter a command
+print_set SETC
+3 4 6 7 23 34 45 64 65 66 68 75 96 
+
+Please enter a command
+sub_set SETC ,SETC ,SETC 
+
+Please enter a command
+print_set SETC
+The set is empty
+
+Please enter a command
+
+
+Please enter a command
+read_set SETA, 1,2,3,4,5,6,7,8,-1
+
+Please enter a command
+print_set SETA
+1 2 3 4 5 6 7 8 64 65 66 68 96 
+
+Please enter a command
+read_set SETB, -1
+
+Please enter a command
+print_set SETB
+64 65 66 68 96 
+
+Please enter a command
+
+
+Please enter a command
+
+
+Please enter a command
+stop
