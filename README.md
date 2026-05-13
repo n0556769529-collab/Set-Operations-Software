@@ -20,5 +20,5 @@ To compile the project, ensure you have gcc and make installed. Use the provided
 **Naomi Aharoni**  
 January 2026  
 Final Grade: 100%  
-```bash
-make
+
+The project includes a makefile for easy compilation using gcc. To build the project, simply run: make
